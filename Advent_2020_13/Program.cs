@@ -15,7 +15,7 @@ namespace Advent_2020_13
             {
                 if (input[i] != "x")
                 {
-                    busPos.Add(int.Parse(input[i]), i); //Keys are the bus names and values are the wanted relative arrival time
+                    busPos.Add(int.Parse(input[i]), i); //Keys are the bus names and values are the required offset of the arrival time.
                 }
             }
             long incrementSize = 1;
